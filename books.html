@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Books | Triumphant Bookshop</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #fdfdfd;
+      color: #222;
+    }
+
+    header {
+      background: #002147;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      color: gold;
+    }
+
+    .section {
+      padding: 2rem;
+    }
+
+    .section h2 {
+      border-left: 5px solid gold;
+      padding-left: 1rem;
+      color: #002147;
+      margin-top: 2rem;
+    }
+
+    .book-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-top: 1rem;
+      justify-content: flex-start;
+    }
+
+    .book-item {
+      background: #f7f7f7;
+      border-radius: 10px;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 220px;
+      flex: 1 1 220px;
+    }
+
+    .book-item img {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+      border-radius: 6px;
+    }
+
+    .book-item h4 {
+      margin: 0.5rem 0;
+    }
+
+    .book-item p {
+      color: #002147;
+      font-weight: bold;
+    }
+
+    .book-item a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      background: #002147;
+      color: gold;
+      padding: 0.5rem 1rem;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+
+    .book-item a:hover {
+      background: gold;
+      color: #002147;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #001933;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+
+    footer span {
+      color: gold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Browse Our Book Categories</h1>
+    <p>Explore educational resources by class, exam, and curriculum focus.</p>
+  </header>
+
+  <div class="section">
+    <h2>📚 Children's Books (Primary Curriculum)</h2>
+    <div class="book-grid">
+      <div class="book-item">
+        <img src="english_literacy.png" alt="English Literacy Book" />
+        <h4>English Literacy</h4>
+        <a href="https://wa.me/2347012345678" target="_blank">Order via WhatsApp</a>
+      </div>
+      <div class="book-item">
+        <img src="math.jpg" alt="Mathematics Drills" />
+        <h4>Mathematics Drills</h4>
+        <a href="https://wa.me/2347012345678" target="_blank">Order via WhatsApp</a>
+      </div>
+      <div class="book-item">
+        <img src="basic_science.jpg" alt="Basic Science Book" />
+        <h4>Basic Science</h4>
+        <a href="https://wa.me/2347012345678" target="_blank">Order via WhatsApp</a>
+      </div>
+      <div class="book-item">
+        <img src="social_studies.jpg" alt="Social Studies Book" />
+        <h4>Social Studies</h4>
+        <a href="https://wa.me/2347012345678" target="_blank">Order via WhatsApp</a>
+      </div>
+    </div>
+
+    <h2>🧠 Junior Secondary (JS1–JS3)</h2>
+    <div class="book-grid">
+      <div class="book-item">
+        <img src="js1_math.jpg" alt="JS1 Mathematics" />
+        <h4>JS1 Mathematics</h4>
+        <a href="https://wa.me/2347012345678" target="_blank">Order via WhatsApp</a>
+      </div>
+      <div class="book-item">
+        <img src="js2_english.jpg" alt="JS2 English" />
+        <h4>JS2 English</h4>
+        <a href="https://wa.me/2347012345678" target="_blank">Order via WhatsApp</a>
+      </div>
+      <div class="book-item">
+        <img src="js3_revision.jpg" alt="JS3 BECE Prep" />
+        <h4>JS3 BECE Prep</h4>
+        <a href="https://wa.me/2347012345678" target="_blank">Order via WhatsApp</a>
+      </div>
+    </div>
+
+    <h2>🎓 Senior Secondary (SS1–SS3)</h2>
+    <div class="book-grid">
+      <div class="book-item">
+        <img src="ss1_physics.jpg" alt="SS1 Physics" />
+        <h4>SS1 Physics</h4>
+        <a href="https://wa.me/2347012345678" target="_blank">Order via WhatsApp</a>
+      </div>
+      <div class="book-item">
+        <img src="ss2_biology.jpg" alt="SS2 Biology" />
+        <h4>SS2 Biology</h4>
+        <a href="https://wa.me/2347012345678" target="_blank">Order via WhatsApp</a>
+      </div>
+      <div class="book-item">
+        <img src="ss3_revision.jpg" alt="SS3 Revision Pack" />
+        <h4>SS3 Revision Pack</h4>
+        <a href="https://wa.me/2347012345678" target="_blank">Order via WhatsApp</a>
+      </div>
+    </div>
+
+    <h2>📝 Exam Prep Series</h2>
+    <div class="book-grid">
+      <div class="book-item">
+        <img src="waec_guide.jpg" alt="WAEC Guide" />
+        <h4>WAEC Practice Guide</h4>
+        <a href="https://wa.me/2347012345678" target="_blank">Order via WhatsApp</a>
+      </div>
+      <div class="book-item">
+        <img src="neco_questions.jpg" alt="NECO Past Questions" />
+        <h4>NECO Past Questions</h4>
+        <a href="https://wa.me/2347012345678" target="_blank">Order via WhatsApp</a>
+      </div>
+      <div class="book-item">
+        <img src="jamb_cbt.jpg" alt="JAMB CBT Pack" />
+        <h4>JAMB CBT Pack</h4>
+        <a href="https://wa.me/2347012345678" target="_blank">Order via WhatsApp</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2025 Triumphant Bookshop. Powered by <span>Akovian Technologies</span>.</p>
+  </footer>
+</body>
+</html>

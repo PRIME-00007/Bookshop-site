@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Triumphant Bookshop</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      background: linear-gradient(to bottom, #001f4d, #003366);
+      color: #f0f0f0;
+    }
+
+    header {
+      padding: 3rem 1rem;
+      text-align: center;
+      background-color: #002147;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      color: gold;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #d0d0d0;
+      max-width: 600px;
+      margin: 1rem auto 0;
+    }
+
+    .hero {
+      padding: 4rem 1rem;
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      color: gold;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      max-width: 700px;
+      margin: auto;
+      color: #dcdcdc;
+    }
+
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      padding: 2rem;
+    }
+
+    .category {
+      background-color: #002c5a;
+      padding: 1.5rem;
+      border-radius: 12px;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease;
+    }
+
+    .category:hover {
+      transform: translateY(-5px);
+    }
+
+    .category h3 {
+      color: #ffd700;
+      margin-bottom: 0.5rem;
+    }
+
+    .category p {
+      font-size: 0.95rem;
+      color: #eee;
+    }
+
+    .cta {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    .cta a {
+      background: gold;
+      color: #001f4d;
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background 0.3s ease;
+    }
+
+    .cta a:hover {
+      background: #ffd700;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #001933;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+
+    footer span {
+      color: gold;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Triumphant Bookshop</h1>
+    <p>Your trusted source for WAEC, NECO, JAMB, GCE, UTME, and school books across all major subjects.</p>
+  </header>
+
+  <section class="hero">
+    <h2>Empowering Students for Academic Triumph</h2>
+    <p>
+      From SS1–SS3 Mathematics and English to Physics, Chemistry, Biology, Government, and more — we offer expertly curated materials to help students ace their exams and build lasting knowledge.
+    </p>
+  </section>
+
+  <section class="categories">
+    <div class="category">
+      <h3>Exam Prep</h3>
+      <p>WAEC, NECO, JAMB, GCE & UTME past questions and practice guides.</p>
+    </div>
+    <div class="category">
+      <h3>SS1–SS3 Textbooks</h3>
+      <p>Comprehensive curriculum-aligned books for all senior secondary classes.</p>
+    </div>
+    <div class="category">
+      <h3>Science Subjects</h3>
+      <p>Mathematics, Physics, Chemistry, Biology and more with detailed explanations.</p>
+    </div>
+    <div class="category">
+      <h3>Arts & Commercial</h3>
+      <p>Economics, Government, Literature, CRS, Commerce and related materials.</p>
+    </div>
+  </section>
+
+  <section class="cta">
+    <a href="books.html">Browse Books</a>
+  </section>
+
+  <footer>
+    <p>© 2025 Triumphant Bookshop. Powered by <span>Akovian Technologies</span>.</p>
+  </footer>
+</body>
+</html>
