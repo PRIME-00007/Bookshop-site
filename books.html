@@ -7,22 +7,28 @@
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <style>
     body {
-      font-family: 'Segoe UI', sans-serif;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       margin: 0;
-      background: #fdfdfd;
-      color: #222;
+      background: linear-gradient(to bottom, #001f4d, #003366);
+      color: #f0f0f0;
     }
 
     header {
       background: #002147;
-      color: white;
-      padding: 2rem 1rem;
+      color: rgb(225, 75, 165);
+      padding: 2.5rem 1rem;
       text-align: center;
     }
 
     header h1 {
       margin: 0;
-      color: gold;
+      font-size: 2.8rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #e3dce0;
+      margin-top: 0.5rem;
     }
 
     .section {
@@ -30,9 +36,9 @@
     }
 
     .section h2 {
-      border-left: 5px solid gold;
+      border-left: 5px solid rgb(225, 75, 165);
       padding-left: 1rem;
-      color: #002147;
+      color: rgb(225, 75, 165);
       margin-top: 2rem;
     }
 
@@ -45,13 +51,18 @@
     }
 
     .book-item {
-      background: #f7f7f7;
-      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 12px;
       padding: 1rem;
       text-align: center;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
       width: 220px;
       flex: 1 1 220px;
+      transition: transform 0.3s ease;
+    }
+
+    .book-item:hover {
+      transform: translateY(-5px);
     }
 
     .book-item img {
@@ -62,27 +73,30 @@
     }
 
     .book-item h4 {
-      margin: 0.5rem 0;
+      margin: 0.7rem 0 0.3rem;
+      color: white;
+      /* color: rgb(225, 75, 165); */
     }
 
     .book-item p {
-      color: #002147;
-      font-weight: bold;
+      color: #dcdcdc;
     }
 
     .book-item a {
       display: inline-block;
       margin-top: 0.5rem;
-      background: #002147;
-      color: gold;
+      background: rgb(225, 75, 165);
+      color: #001f4d;
       padding: 0.5rem 1rem;
       text-decoration: none;
       border-radius: 6px;
+      font-weight: bold;
+      transition: background 0.3s ease;
     }
 
     .book-item a:hover {
-      background: gold;
-      color: #002147;
+      background: #f0f0f0;
+      color: #001f4d;
     }
 
     footer {
@@ -94,7 +108,8 @@
     }
 
     footer span {
-      color: gold;
+      color: rgb(225, 75, 165);
+      font-weight: bold;
     }
   </style>
 </head>
@@ -108,7 +123,7 @@
     <h2>📚 Children's Books (Primary Curriculum)</h2>
     <div class="book-grid">
       <div class="book-item">
-        <img src="english_literacy.png" alt="English Literacy Book" />
+        <img src="english.png" alt="English Literacy Book" />
         <h4>English Literacy</h4>
         <a href="https://wa.me/2347012345678" target="_blank">Order via WhatsApp</a>
       </div>
